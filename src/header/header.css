@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Roboto|Roboto+Condensed');
+/*a
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+a*/
+:root {
+  --grey:rgb(240,240,240);
+  --gold:rgb(215, 198, 80);
+}
+
+* {
+  margin: 0;
+}
+.headerTop {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+.topSent {
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(215, 198, 80);
+}
+.topTitle {
+  font-size: 2em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
+}
+.headerPara {
+  height: 250px;
+  background-image: url('./img/HeadConq.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.headerBot {
+  height: 50px;
+}
+/*MENU*/
+.menuList {
+  list-style: none;
+  padding:0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
+  font-size: 1.2em;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menuList li {
+  transition: color 0.2s ease-out;
+  font-family: Uni - Regular;
+}
+.menuList li:hover {
+  color: rgb(200, 24, 24);
+  cursor: pointer;
+  transition: color 0.2s ease-out;
+}

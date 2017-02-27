@@ -1,0 +1,224 @@
+.body {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  height: auto;
+}
+.bodyCont {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+/*LEFT BLOC*/
+.leftBloc {
+  width: 67%;
+}
+.lessonBloc {
+  height: auto;
+  width: 100%;
+}
+.lessonImg {
+  height: 180px;
+  width: 100%;
+  background-image: url("./img/lessonImg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.lessonText {
+  margin-top: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.lessonText span {
+  font-family: 'Oswald', sans-serif;
+}
+.progBloc {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+}
+.progTitle {
+  height: 50px;
+  width: 700px;
+  padding: 0 0 0 60px;
+  background-color: var(--grey);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--gold);
+  color: grey;
+  font-size: 1.4em;
+  font-family: 'Oswald', sans-serif;
+  outline: none;
+}
+.progCont {
+  padding: 20px 0 0 0;
+  display: flex;
+}
+.progImgBloc{
+  height: 340px;
+  width: 53%;
+  border-bottom:1px solid var(--gold);
+}
+.progText p span {
+  font-size: 1em;
+  font-family: 'Oswald', sans-serif;
+}
+.progText p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2em;
+}
+.progImg {
+  height: 305px;
+  width: 100%;
+  background-image: url("./img/progImg.jpg");
+  background-position: top;
+}
+.progOthBloc {
+  margin: 10px 0 0 20px;
+  width: 44%;
+  height: 320px;
+}
+.progOth:first-child {
+  margin-top: 33px;
+}
+.progOth {
+  margin-top: 15px;
+  height: 80px;
+  width: 95%;
+  overflow: hidden;
+  border-bottom:1px solid var(--gold);
+  display: flex;
+}
+.othImg {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background-color: blue;
+  background-position: center;
+  background-size: cover;
+}
+.progOth p span{
+  font-family: 'Oswald', sans-serif;
+}
+.progOth p {
+  margin-left: 75px;
+  font-size: 0.8em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.othImg1 {background-image: url("./img/othImg1.jpg");}
+.othImg2 {background-image: url("./img/othImg2.jpg");}
+.othImg3 {background-image: url("./img/othImg3.jpg");}
+.nutImg {
+  height: 305px;
+  width: 100%;
+  background-image: url("./img/foodImg.jpg");
+  background-size: cover;
+  background-position: top;
+}
+.nutImg1 {background-image: url("./img/EatFoodImg.jpg");}
+.nutImg2 {background-image: url("./img/pancake-au-chocolat.jpg");}
+.nutImg3 {background-image: url("./img/porridge-chocolat.jpg");}
+.moreBloc {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--gold);
+}
+.moreTitle {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  padding: 0 0 0 20px;
+}
+/*LEFT BLOC END*/
+
+/*RIGHT BLOC*/
+.rightBloc {
+  width: 30%;
+  overflow: hidden;
+}
+.searchTitle, .aboTitle, .socTitle  {
+  height: 50px;
+  width: 350px;
+  background-color: var(--grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--gold);
+  color: grey;
+  font-size: 1.4em;
+  font-family: 'Oswald', sans-serif;
+  outline: none;
+}
+.searchBar {
+  margin-top: 20px;
+  border-style: none;
+  width: 310px;
+  height: 50px;
+  background-color: rgb(246,246,246);
+  background-image: url('./img/searchicon.png');
+  background-size: 7%;
+  background-position: 8px 12px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+.searchBar:focus {
+  box-shadow: inset 0 0 0 gold, 0 0 0.5em grey;
+  outline: none;
+}
+.aboBloc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.aboTitle {
+  margin-top: 40px;
+}
+.aboImgCont {
+  margin-top: 20px;
+  background-color: var(--grey);
+  height: 320px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid var(--gold);
+}
+.aboImg {
+  margin-top: 10px;
+  height: 300px;
+  width: 90%;
+  background-image: url('./img/aboImg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.socBloc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.socTitle {
+  margin-top: 40px;
+}
+.socLog {
+  width: 80%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+}
+.log {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.log p {
+  font-size: 0.4em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/*RIGHT BLOC END*/
