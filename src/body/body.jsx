@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './body.css';
+import { Link } from 'react-router'
 
 class Body extends React.Component {
 
@@ -23,23 +24,23 @@ class Body extends React.Component {
                 <div className="progCont">
                   <div className="progImgBloc">
                     <div className="progText"><p><span>EPAULES ON FIRE:</span> Pour définir et exterminer ces épaules avec..</p></div>
-                    <a href="index2.html"><div className="progImg"></div></a>
+                    <Link to="/Programmes"><div className="progImg"></div></Link>
                   </div>
                   <div className="progOthBloc">
                     <div className="progOth">
-                      <div className="othImg othImg1"></div>
+                      <Link to="/Programmes"><div className="othImg othImg1"></div></Link>
                       <div className="othText">
                         <p><span>Lorem ipsum dolor sit amet, consectetur</span></p><p> Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi... </p>
                       </div>
                     </div>
                     <div className="progOth">
-                      <div className="othImg othImg2"></div>
+                      <Link to="/Programmes"><div className="othImg othImg2"></div></Link>
                       <div className="othText">
                         <p><span>Lorem ipsum dolor sit amet, consecteturadipisicing elit, sed do eiusmod tempor</span></p><p>Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam... </p>
                       </div>
                     </div>
                     <div className="progOth">
-                      <div className="othImg othImg3"></div>
+                      <Link to="/Programmes"><div className="othImg othImg3"></div></Link>
                       <div className="othText">
                         <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></p><p> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
                       </div>
@@ -53,23 +54,23 @@ class Body extends React.Component {
                 <div className="progCont">
                   <div className="progImgBloc">
                     <div className="progText"><p><span>SALADE DE POISSON:</span> Accompagné de riz avec sa sauce noix...</p></div>
-                    <a href="index2.html"><div className="nutImg"></div></a>
+                    <Link to="/Error404"><div className="nutImg"></div></Link>
                   </div>
                   <div className="progOthBloc">
                     <div className="progOth">
-                      <div className="othImg nutImg1"></div>
+                      <Link to="/Error404"><div className="othImg nutImg1"></div></Link>
                       <div className="othText">
                         <p><span>Lorem ipsum dolor sit amet, consectetur</span></p><p> Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi... </p>
                       </div>
                     </div>
                     <div className="progOth">
-                      <div className="othImg nutImg2"></div>
+                      <Link to="/Error404"><div className="othImg nutImg2"></div></Link>
                       <div className="othText">
                         <p><span>Lorem ipsum dolor sit amet, consecteturadipisicing elit, sed do eiusmod tempor</span></p><p>Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam... </p>
                       </div>
                     </div>
                     <div className="progOth">
-                      <div className="othImg nutImg3"></div>
+                      <Link to="/Error404"><div className="othImg nutImg3"></div></Link>
                       <div className="othText">
                         <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit</span></p><p> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
                       </div>

@@ -60,3 +60,11 @@ a*/
   cursor: pointer;
   transition: color 0.2s ease-out;
 }
+.menuList li a {
+  text-decoration: none;
+  color: black;
+}
+.menuList li a:hover {
+  color: rgb(200, 24, 24);
+  transition: color 0.2s ease-out;
+}

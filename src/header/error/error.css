@@ -1,0 +1,13 @@
+.error {
+  display: flex;
+  justify-content: center;
+}
+.errorImg {
+  margin-top: 40px;
+  width: 800px;
+  height: 550px;
+  background-image: url('errorImg.jpg');
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
