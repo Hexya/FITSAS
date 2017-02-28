@@ -1,0 +1,58 @@
+.exeBloc {
+  display: flex;
+  justify-content: center;
+}
+.contentExe {
+  height: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.exeCase {
+  margin-top: 40px;
+  height: 500px;
+  width: 400px;
+  background-color: var(--grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.caseImg {
+  height: 210px;
+  width: 380px;
+  background-size: 100%;
+  background-position: center;
+  transition: background-size .2s ease-in;
+  -moz-transition: background-size .2s ease-in;
+  -ms-transition: background-size .2s ease-in;
+  -o-transition: background-size .2s ease-in;
+  -webkit-transition: background-size .2s ease-in;
+}
+.caseImg:hover {
+  background-size: 102%;
+}
+.caseImg1{background-image: url('absImg.jpg');}
+.caseImg2{background-image: url('pdcImg.jpg');}
+.caseImg3{background-image: url('puisImg.jpg');}
+.caseImg4{background-image: url('dosImg.jpg');}
+
+.caseText {
+  margin-top: 10px;
+  height: 260px;
+  width: 380px;
+  background-color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2em;
+  overflow: auto;
+
+}
+.caseText span {
+  font-family: 'Oswald', sans-serif;
+  border-bottom: 1px solid var(--gold);
+  font-size: 1.6em;
+}
+.caseText p {
+  margin:0 5% 0 5%;
+}
